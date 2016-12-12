@@ -37,6 +37,16 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
         -->>						CODE									<<--
         ------------------------------------------------------------------------
 
+        --CREATE PROCEDURE dbo.procMergePageView
+        --    @Display dbo.PageViewTableType READONLY
+        --AS
+        --BEGIN
+        --    MERGE INTO dbo.PageView AS T
+        --    USING @Display AS S
+        --    ON T.PageViewID = S.PageViewID
+        --    WHEN MATCHED THEN UPDATE SET T.PageViewCount = T.PageViewCount + 1
+        --    WHEN NOT MATCHED THEN INSERT VALUES(S.PageViewID, 1);
+        --END
 
         
         ------------------------------------------------------------------------
