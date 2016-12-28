@@ -306,3 +306,5 @@ As Scrum Teams mature it is expected that the definitoin of "Done" is more strin
 # Ending
 Although implementing only part of the Scurm's artifacts, roles, events and rules
 is possible the result is not Scrum. 
+
+Ready for the [Open Assesment] (https://www.classmarker.com/online-test/start/?quiz=vek54a6ec10658ef)? 
